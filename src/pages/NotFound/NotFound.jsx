@@ -1,9 +1,16 @@
 import React from 'react'
-import './NotFound.css'
+import Header from '../../components/Header/Header'
+import Error from '../../components/Error/Error'
+import Footer from '../../components/Footer/Footer'
 
 function NotFound() {
   return (
-    <div>NotFound</div>
+    <div className='main'>
+      <Header/>
+      <Error/>
+      <Footer/>
+    </div>
+    
   )
 }
 
