@@ -1,0 +1,25 @@
+import React from 'react'
+import './Gallery.css'
+import useFetchData from '../../data/useFetchData'
+import Thumb from '../Thumb/Thumb'
+
+
+function Gallery() {
+    const datas = useFetchData();
+    return (
+        <section className='home-gallery'>
+            {datas.map((data,index) => (
+                <Thumb
+                    key={index}
+                    id={data.id}
+                    cover={data.cover}
+                    title={data.title}
+                />
+            ))}
+        </section>
+  )
+}
+
+
+
+export default Gallery

@@ -1,0 +1,15 @@
+.home-gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: center;
+    margin-top: 43px;
+    background-color: #F6F6F6;
+    padding-top: 56px;
+    padding-bottom: 56px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 25px;
+}
