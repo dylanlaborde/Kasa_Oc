@@ -1,14 +1,8 @@
 import { useEffect, useState } from 'react'
+import logement from './logements.json'
 
 function useFetchData() {
-    const [datas, setDatas] = useState([]);
-
-    useEffect(() => {
-        fetch('./logement.json')
-            .then(response => response.json())
-            .then(data => setDatas(data))
-    }, []);
-
+    const [datas, setDatas] = useState(logement);
     return datas;
 }
 
