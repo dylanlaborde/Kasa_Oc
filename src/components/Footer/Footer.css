@@ -1,0 +1,16 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    height: 209px;
+    background-color: black;
+    color: white;
+}
+
+footer img{
+    height: 39px;
+    width: 122px;
+    filter: brightness(0) saturate(100%) invert(100%) ;
+}
