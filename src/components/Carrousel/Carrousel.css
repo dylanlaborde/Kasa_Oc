@@ -1,0 +1,39 @@
+.carrousel{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    background-color: grey;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.arrows_left{
+    position:absolute;
+    left: 0;
+    cursor: pointer;
+}
+
+.arrows_right{
+    position:absolute;
+    right: 0px;
+    cursor: pointer;
+}
+
+.carrousel_img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.viewWrapper{
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+}
+
+.viewWrapper span{
+   color: white;
+   font-size: 18px;
+   font-weight: 500;
+}
