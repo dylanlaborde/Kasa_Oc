@@ -1,0 +1,37 @@
+.details{
+    display: flex;
+    gap: 76px;
+    width: 100%;
+}
+
+.detailsWrapper{
+    width: 50%;
+}
+
+.detailsWrapper-open {
+    background-color: #F6F6F673;
+}
+
+.topbar{
+    background-color: #FF6060;
+    border-radius: 5px;
+    padding: 10px 20px 10px 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+.topbar img {
+    cursor: pointer;
+}
+
+.equipements ul , .description{
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 20px;
+    margin-top: 16px;
+    list-style: none;
+}
+

@@ -1,0 +1,29 @@
+.logement__host img {
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+
+.hostname span{
+    color: #FF6060;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.hostname{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.pictureContainer{
+    height: 64px;
+    width: 64px;
+}
+
+.logement__host{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 10px;
+}

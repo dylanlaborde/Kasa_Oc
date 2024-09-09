@@ -1,0 +1,17 @@
+.logement__tags{
+    display: flex;
+    gap: 10px;
+}
+
+.logement__tag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FF6060;
+    border-radius: 10px;
+    width: 115px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 4px;
+    font-size: 14px;
+}
