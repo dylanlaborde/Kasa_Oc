@@ -6,10 +6,10 @@ import LogementWrapper from '../../components/LogementWrapper/LogementWrapper'
 
 function Logement() {
   return (
-    <div>
+    <div className='main'>
       <Header />
-      <LogementWrapper/>
-      <Footer />
+      <LogementWrapper />
+      <Footer/>
     </div>
   )
 }
