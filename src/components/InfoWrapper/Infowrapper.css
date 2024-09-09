@@ -1,0 +1,22 @@
+.infoWrapper{
+    display: flex;
+    padding-top: 30px;
+    flex-wrap: wrap;
+}
+
+.ownerAndRating{
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    width: 50%;
+    align-items: flex-end;
+    padding-bottom: 24px;
+}
+
+.titleAndTags{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    width: 50%;
+    padding-bottom: 24px;
+}
