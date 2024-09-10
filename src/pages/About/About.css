@@ -1,0 +1,12 @@
+.dropdownWrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin:0 auto;
+    max-width: 1023px;
+    gap: 30px;
+    padding-top: 38px;
+    padding-bottom: 38px;
+
+}
+

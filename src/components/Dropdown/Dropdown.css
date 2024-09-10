@@ -1,0 +1,23 @@
+.dropdown-open {
+    background-color: #F6F6F673;
+}
+
+.dropdownWrapper .dropdown{
+    width: 100%;
+}
+
+.dropdownContent{
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 20px;
+    margin-top: 16px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+
+.topbar{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+
