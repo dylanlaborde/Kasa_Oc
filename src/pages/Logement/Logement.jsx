@@ -6,11 +6,11 @@ import LogementWrapper from '../../components/LogementWrapper/LogementWrapper'
 
 function Logement() {
   return (
-    <div className='main'>
+    <>
       <Header />
       <LogementWrapper />
       <Footer/>
-    </div>
+    </>
   )
 }
 
