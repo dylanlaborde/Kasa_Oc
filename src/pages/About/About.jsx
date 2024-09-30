@@ -33,7 +33,6 @@ function About() {
 
   return (
     <>
-      <Header />
       <Banner image={about_banner} />
       <div className="dropdownWrapper">
       {aboutList.map
@@ -45,7 +44,6 @@ function About() {
         )
         }
         </div>
-      <Footer />
   </>
   )
 }

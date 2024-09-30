@@ -6,9 +6,7 @@ import Footer from '../../components/Footer/Footer'
 function NotFound() {
   return (
     <div className='main'>
-      <Header/>
       <Error/>
-      <Footer/>
     </div>
     
   )

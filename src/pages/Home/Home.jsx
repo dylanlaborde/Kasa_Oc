@@ -8,10 +8,8 @@ import './Home.css'
 function Home() {
   return (
     <>
-      <Header />
       <Banner image={home_banner} textContent={'Chez vous, partout et ailleurs'}/>
       <Gallery />
-      <Footer />
     </>
   )
 }

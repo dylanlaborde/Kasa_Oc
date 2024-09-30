@@ -6,18 +6,29 @@
     background-color: grey;
     border-radius: 10px;
     overflow: hidden;
+    @media screen and (max-width:768px) {
+        height: 255px;
+    }
 }
 
 .arrows_left{
     position:absolute;
     left: 0;
     cursor: pointer;
+    @media screen and (max-width:768px) {
+        height: 24px;
+        width: 24px;
+    }
 }
 
 .arrows_right{
     position:absolute;
     right: 0px;
     cursor: pointer;
+    @media screen and (max-width:768px) {
+        height: 24px;
+        width: 24px;
+    }
 }
 
 .carrousel_img{

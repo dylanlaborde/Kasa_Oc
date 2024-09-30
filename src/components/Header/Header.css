@@ -7,4 +7,21 @@
     padding-bottom: 50px;
     padding-right: 100px;
     padding-left: 100px;
+
+    @media screen and (max-width: 768px) {
+        padding-top: 20px;
+        padding-bottom: 27px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+
+.LogoContainer{
+    @media screen and (max-width: 768px) {
+        height: 46px;
+    }
+}
+
+.LogoContainer img{
+   height: 100%;
 }

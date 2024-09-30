@@ -1,11 +1,12 @@
 import React from 'react'
 import './Gallery.css'
-import useFetchData from '../../data/useFetchData'
 import Thumb from '../Thumb/Thumb'
+import logements from '../../data/logements.json'
 
 
 function Gallery() {
-    const datas = useFetchData();
+    const datas = logements;
+
     return (
         <section className='home-gallery'>
             {datas.map((data,index) => (

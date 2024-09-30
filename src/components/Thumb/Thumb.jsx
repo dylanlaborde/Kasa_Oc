@@ -8,6 +8,7 @@ function Thumb({id,cover,title}) {
         <Link to={'/logement/' + id}>
             <div className='card' >
                 <img src={cover} alt={title} />
+                <div className="overlay"></div>
                 <span>{title}</span>
             </div>    
         </Link>

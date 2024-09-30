@@ -8,6 +8,9 @@
     color: #FF6060;
     font-size: 18px;
     font-weight: 500;
+    @media screen and (max-width:768px) {
+        font-size: 12px;
+     }
 }
 
 .hostname{
@@ -19,6 +22,10 @@
 .pictureContainer{
     height: 64px;
     width: 64px;
+    @media screen and (max-width:768px) {
+        height: 32px;
+        width: 32px;
+     }
 }
 
 .logement__host{

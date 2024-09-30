@@ -2,6 +2,11 @@
     display: flex;
     padding-top: 30px;
     flex-wrap: wrap;
+    @media screen and (max-width:768px) {
+       flex-direction: column;
+       flex-wrap: unset;
+      
+     }
 }
 
 .ownerAndRating{
@@ -11,6 +16,12 @@
     width: 50%;
     align-items: flex-end;
     padding-bottom: 24px;
+    @media screen and (max-width:768px) {
+        width: 100%;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        gap: unset;
+    }
 }
 
 .titleAndTags{
@@ -19,4 +30,7 @@
     flex-direction: column;
     width: 50%;
     padding-bottom: 24px;
+    @media screen and (max-width:768px) {
+        width: 100%;
+    }
 }

@@ -3,6 +3,9 @@
     color: #FF6060;
     font-size: 36px;
     font-weight: 500;
+    @media screen and (max-width:768px) {
+        font-size: 14px;
+     }
 }
 
 .logement__title h3{
@@ -10,4 +13,7 @@
     font-size: 18px;
     font-weight: 500;
     color: #000000;
+    @media screen and (max-width:768px) {
+       font-size: 18px;
+    }
 }

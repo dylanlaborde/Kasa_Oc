@@ -5,22 +5,36 @@
     align-items: center;
     gap: 139px;
     padding-bottom: 139px;
+    @media screen and (max-width:768px) {
+        padding-bottom: 113px;
+        gap: 113px;
+        padding-top: 113px;
+    }
 }
 
 .error-container h1{
     margin: 0;
     font-size: 288px;
     color: #FF6060;
+    @media screen and (max-width:768px) {
+        font-size: 96px;
+    }
 }
 
 .error-container p{
     margin: 0;
     color: #FF6060;
     font-size: 36px;
+    @media screen and (max-width:768px) {
+        font-size: 18px;
+    }
 }
 
 .error-container a{
     color: black;
     text-decoration: underline;
     font-size: 18px;
+    @media screen and (max-width:768px) {
+        font-size: 14px;
+    }
 }
