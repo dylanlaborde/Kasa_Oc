@@ -1,0 +1,33 @@
+{
+    "title": "Kasa",
+    "description": "Application de location immobilière développée avec React",
+    "technologies": [
+        "React",
+        "Create React App",
+        "React Router",
+        "Sass",
+        "CSS Animations"
+    ],
+    "features": [
+        "Navigation entre les pages",
+        "Galerie de logements",
+        "Carrousel d'images interactif",
+        "Composants réutilisables",
+        "Animations et transitions fluides"
+    ],
+    "competences": [
+        "Initialiser une application avec Create React App",
+        "Configurer la navigation entre les pages de l'application avec React Router",
+        "Développer des éléments de l'interface d'un site web grâce à des composants React",
+        "Mettre en œuvre des animations CSS",
+        "Développer une interface web avec Sass"
+    ],
+    "animations": {
+        "elements": [
+            "Collapse pour les descriptions",
+            "Carrousel d'images",
+            "Transitions de pages",
+            "Effets hover sur les éléments interactifs"
+        ]
+    }
+}
